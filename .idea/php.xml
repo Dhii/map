@@ -37,9 +37,6 @@
       <path value="$PROJECT_DIR$/vendor/codeclimate/php-test-reporter" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/vendor/symfony/debug" />
-      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
-      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
-      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/vendor/dhii/i18n-helper-base" />
       <path value="$PROJECT_DIR$/vendor/dhii/exception" />
       <path value="$PROJECT_DIR$/vendor/dhii/i18n-interface" />
@@ -50,6 +47,18 @@
       <path value="$PROJECT_DIR$/vendor/dhii/normalization-helper-base" />
       <path value="$PROJECT_DIR$/vendor/dhii/stringable-interface" />
       <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/dhii/collections-interface" />
+      <path value="$PROJECT_DIR$/vendor/dhii/iterator-interface" />
+      <path value="$PROJECT_DIR$/vendor/dhii/iterator-base" />
+      <path value="$PROJECT_DIR$/vendor/dhii/data-path-aware-interface" />
+      <path value="$PROJECT_DIR$/vendor/dhii/iterator-helper-base" />
+      <path value="$PROJECT_DIR$/vendor/dhii/data-key-value-aware-interface" />
+      <path value="$PROJECT_DIR$/vendor/dhii/data-hierarchy-interface" />
+      <path value="$PROJECT_DIR$/vendor/dhii/iterator-abstract" />
+      <path value="$PROJECT_DIR$/vendor/dhii/exception-helper-base" />
+      <path value="$PROJECT_DIR$/vendor/dhii/data-key-value-aware-abstract" />
+      <path value="$PROJECT_DIR$/vendor/dhii/data-object-abstract" />
+      <path value="$PROJECT_DIR$/vendor/dhii/container-helper-base" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="5.4.0" />
