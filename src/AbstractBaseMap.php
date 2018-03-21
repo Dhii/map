@@ -211,7 +211,16 @@ abstract class AbstractBaseMap extends AbstractBaseContainer implements
         $iterator = $this->_getIterator();
 
         $iterator->next();
-        $iteration = $this->_createIteration($iterator->key(), $iterator->current());
+
+        $key = $iterator->valid()
+            ? $iterator->key()
+            : null;
+
+        $val = $iterator->valid()
+            ? $iterator->current()
+            : null;
+
+        $iteration = $this->_createIteration($key, $val);
 
         return $iteration;
     }
