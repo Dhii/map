@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [[*next-version*]] - YYYY-MM-DD
+### Changed
+- Now depends on newer versions of `dhii/collections-interface`.
 
 ## [0.1-alpha2] - 2018-04-06
 ### Fixed
