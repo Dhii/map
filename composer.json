@@ -16,7 +16,7 @@
         "dhii/data-container-interface": "^0.1 | ^0.2",
         "dhii/data-container-base": "^0.1-alpha2",
         "dhii/container-helper-base": "^0.1-alpha5",
-        "dhii/collections-interface": "0.2-alpha1",
+        "dhii/collections-interface": "^0.2-alpha3",
         "dhii/iterator-interface": "^0.1",
         "dhii/iterator-base": "^0.1-alpha2",
         "dhii/iterator-abstract": "^0.1",

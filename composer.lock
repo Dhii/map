@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "03a325cd64dadbe812fe6a39af7f53d8",
+    "content-hash": "82873e9d885ba7cc6e6b30617dbf476f",
     "packages": [
         {
             "name": "dhii/collections-interface",
-            "version": "v0.2-alpha1",
+            "version": "v0.2-alpha3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/collections-interface.git",
-                "reference": "fc62e2dc9a1eebb57d112995546a7c7728a3109d"
+                "reference": "e2b294470ed1a46fe6ebedc698cbd4b1253d456c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/collections-interface/zipball/fc62e2dc9a1eebb57d112995546a7c7728a3109d",
-                "reference": "fc62e2dc9a1eebb57d112995546a7c7728a3109d",
+                "url": "https://api.github.com/repos/Dhii/collections-interface/zipball/e2b294470ed1a46fe6ebedc698cbd4b1253d456c",
+                "reference": "e2b294470ed1a46fe6ebedc698cbd4b1253d456c",
                 "shasum": ""
             },
             "require": {
@@ -53,7 +53,7 @@
                 }
             ],
             "description": "A highly ISP-compliant collection of interfaces that represent maps and lists.",
-            "time": "2018-04-06T05:34:48+00:00"
+            "time": "2018-04-06T12:20:14+00:00"
         },
         {
             "name": "dhii/container-helper-base",
