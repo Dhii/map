@@ -18,7 +18,6 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/data-object-abstract" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/data-path-aware-interface" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/exception" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/exception-helper-base" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/exception-interface" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/i18n-helper-base" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/i18n-interface" />
@@ -81,7 +80,6 @@
           <root url="file://$MODULE_DIR$/vendor/dhii/data-object-abstract" />
           <root url="file://$MODULE_DIR$/vendor/dhii/data-path-aware-interface" />
           <root url="file://$MODULE_DIR$/vendor/dhii/exception" />
-          <root url="file://$MODULE_DIR$/vendor/dhii/exception-helper-base" />
           <root url="file://$MODULE_DIR$/vendor/dhii/exception-interface" />
           <root url="file://$MODULE_DIR$/vendor/dhii/i18n-helper-base" />
           <root url="file://$MODULE_DIR$/vendor/dhii/i18n-interface" />
@@ -140,7 +138,6 @@
           <root url="file://$MODULE_DIR$/vendor/dhii/data-object-abstract" />
           <root url="file://$MODULE_DIR$/vendor/dhii/data-path-aware-interface" />
           <root url="file://$MODULE_DIR$/vendor/dhii/exception" />
-          <root url="file://$MODULE_DIR$/vendor/dhii/exception-helper-base" />
           <root url="file://$MODULE_DIR$/vendor/dhii/exception-interface" />
           <root url="file://$MODULE_DIR$/vendor/dhii/i18n-helper-base" />
           <root url="file://$MODULE_DIR$/vendor/dhii/i18n-interface" />
