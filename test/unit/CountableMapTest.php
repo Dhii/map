@@ -213,7 +213,7 @@ class CountableMapTest extends TestCase
             'Subject does not implement required interface'
         );
         $this->assertInstanceOf(
-            'Dhii\Collection\CountableSetInterface',
+            'Dhii\Collection\CountableListInterface',
             $subject,
             'Subject does not implement required interface'
         );
