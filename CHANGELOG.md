@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [[*next-version*]] - YYYY-MM-DD
+### Changed
+- `AbstractBaseMap#_loop()` now abstracts calculation of key and value.
 
 ## [0.1-alpha3] - 2018-04-06
 ### Changed
