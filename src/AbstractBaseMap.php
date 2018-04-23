@@ -22,6 +22,7 @@ use Dhii\Iterator\ResolveIteratorCapableTrait;
 use Dhii\Util\Normalization\NormalizeIntCapableTrait;
 use Dhii\Util\Normalization\NormalizeStringCapableTrait;
 use Exception as RootException;
+use Iterator;
 
 /**
  * Common functionality for maps.
@@ -212,17 +213,44 @@ abstract class AbstractBaseMap extends AbstractBaseContainer implements
 
         $iterator->next();
 
-        $key = $iterator->valid()
-            ? $iterator->key()
-            : null;
-
-        $val = $iterator->valid()
-            ? $iterator->current()
-            : null;
+        $key = $this->_calculateKey($iterator);
+        $val = $this->_calculateValue($iterator);
 
         $iteration = $this->_createIteration($key, $val);
 
         return $iteration;
+    }
+
+    /**
+     * Calculates a key based on a given iterator.
+     *
+     * @since [*next-version*]
+     *
+     * @param Iterator $iterator The iterator used to calculate the key.
+     *
+     * @return string|null The calculated key.
+     */
+    protected function _calculateKey(Iterator $iterator)
+    {
+        return $iterator->valid()
+            ? $iterator->key()
+            : null;
+    }
+
+    /**
+     * Calculates a value based on a given iterator.
+     *
+     * @since [*next-version*]
+     *
+     * @param Iterator $iterator The iterator used to calculate the value.
+     *
+     * @return mixed The calculated value.
+     */
+    protected function _calculateValue(Iterator $iterator)
+    {
+        return $iterator->valid()
+            ? $iterator->current()
+            : null;
     }
 
     /**
