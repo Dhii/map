@@ -24,7 +24,6 @@ use Dhii\Iterator\TrackingIteratorTrait;
 use Dhii\Util\Normalization\NormalizeIntCapableTrait;
 use Dhii\Util\Normalization\NormalizeStringCapableTrait;
 use Exception as RootException;
-use Iterator;
 
 /**
  * Common functionality for maps.
