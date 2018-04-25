@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "82873e9d885ba7cc6e6b30617dbf476f",
+    "content-hash": "9a07921165f7a8f52086d0e2a92f96b9",
     "packages": [
         {
             "name": "dhii/collections-interface",
-            "version": "v0.2-alpha3",
+            "version": "v0.2-alpha4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/collections-interface.git",
-                "reference": "e2b294470ed1a46fe6ebedc698cbd4b1253d456c"
+                "reference": "82ee5552d6ccf300ef85d57866c88b2a7a74fbd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/collections-interface/zipball/e2b294470ed1a46fe6ebedc698cbd4b1253d456c",
-                "reference": "e2b294470ed1a46fe6ebedc698cbd4b1253d456c",
+                "url": "https://api.github.com/repos/Dhii/collections-interface/zipball/82ee5552d6ccf300ef85d57866c88b2a7a74fbd5",
+                "reference": "82ee5552d6ccf300ef85d57866c88b2a7a74fbd5",
                 "shasum": ""
             },
             "require": {
@@ -53,20 +53,20 @@
                 }
             ],
             "description": "A highly ISP-compliant collection of interfaces that represent maps and lists.",
-            "time": "2018-04-06T12:20:14+00:00"
+            "time": "2018-04-09T10:46:45+00:00"
         },
         {
             "name": "dhii/container-helper-base",
-            "version": "v0.1-alpha6",
+            "version": "v0.1-alpha7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/container-helper-base.git",
-                "reference": "284e6f999446be4b8baacf476495a39162531dc4"
+                "reference": "622671534124d95c1478a744e4d903b4d071f674"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/container-helper-base/zipball/284e6f999446be4b8baacf476495a39162531dc4",
-                "reference": "284e6f999446be4b8baacf476495a39162531dc4",
+                "url": "https://api.github.com/repos/Dhii/container-helper-base/zipball/622671534124d95c1478a744e4d903b4d071f674",
+                "reference": "622671534124d95c1478a744e4d903b4d071f674",
                 "shasum": ""
             },
             "require": {
@@ -102,7 +102,7 @@
                 }
             ],
             "description": "Helper functionality for working with container.",
-            "time": "2018-03-30T08:49:44+00:00"
+            "time": "2018-04-10T15:03:55+00:00"
         },
         {
             "name": "dhii/data-container-abstract",
@@ -680,19 +680,20 @@
         },
         {
             "name": "dhii/iterator-abstract",
-            "version": "dev-develop",
+            "version": "v0.1-alpha2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/iterator-abstract.git",
-                "reference": "211370b385b1dad6c45b94ab678a63690cac25b5"
+                "reference": "576484183865575ffc2a0d586132741329626fb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/iterator-abstract/zipball/211370b385b1dad6c45b94ab678a63690cac25b5",
-                "reference": "211370b385b1dad6c45b94ab678a63690cac25b5",
+                "url": "https://api.github.com/repos/Dhii/iterator-abstract/zipball/576484183865575ffc2a0d586132741329626fb8",
+                "reference": "576484183865575ffc2a0d586132741329626fb8",
                 "shasum": ""
             },
             "require": {
+                "dhii/stringable-interface": "^0.1",
                 "php": "^5.4 | ^7.0"
             },
             "require-dev": {
@@ -723,7 +724,14 @@
                     "email": "development@dhii.co"
                 }
             ],
-            "time": "2018-01-24T11:51:26+00:00"
+            "description": "Functionality for iterators that comply with dhii/iterator-interface, or are otherwise based on iteration objects",
+            "keywords": [
+                "abstract",
+                "iteration",
+                "iterator",
+                "trait"
+            ],
+            "time": "2018-04-25T12:20:32+00:00"
         },
         {
             "name": "dhii/iterator-base",
@@ -835,16 +843,16 @@
         },
         {
             "name": "dhii/iterator-interface",
-            "version": "dev-develop",
+            "version": "v0.1-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/iterator-interface.git",
-                "reference": "1397c5f808a3c184685afe297deae1a46ff11675"
+                "reference": "0ea9fdbe9c642e18d393240b958e750bb78cb959"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/iterator-interface/zipball/1397c5f808a3c184685afe297deae1a46ff11675",
-                "reference": "1397c5f808a3c184685afe297deae1a46ff11675",
+                "url": "https://api.github.com/repos/Dhii/iterator-interface/zipball/0ea9fdbe9c642e18d393240b958e750bb78cb959",
+                "reference": "0ea9fdbe9c642e18d393240b958e750bb78cb959",
                 "shasum": ""
             },
             "require": {
@@ -882,7 +890,7 @@
                 }
             ],
             "description": "Interfaces for standard iterators",
-            "time": "2018-01-29T11:22:06+00:00"
+            "time": "2018-04-24T19:28:27+00:00"
         },
         {
             "name": "dhii/normalization-helper-base",
@@ -1383,23 +1391,23 @@
         },
         {
             "name": "phpspec/prophecy",
-            "version": "1.7.5",
+            "version": "1.7.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "dfd6be44111a7c41c2e884a336cc4f461b3b2401"
+                "reference": "33a7e3c4fda54e912ff6338c48823bd5c0f0b712"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/dfd6be44111a7c41c2e884a336cc4f461b3b2401",
-                "reference": "dfd6be44111a7c41c2e884a336cc4f461b3b2401",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/33a7e3c4fda54e912ff6338c48823bd5c0f0b712",
+                "reference": "33a7e3c4fda54e912ff6338c48823bd5c0f0b712",
                 "shasum": ""
             },
             "require": {
                 "doctrine/instantiator": "^1.0.2",
                 "php": "^5.3|^7.0",
                 "phpdocumentor/reflection-docblock": "^2.0|^3.0.2|^4.0",
-                "sebastian/comparator": "^1.1|^2.0",
+                "sebastian/comparator": "^1.1|^2.0|^3.0",
                 "sebastian/recursion-context": "^1.0|^2.0|^3.0"
             },
             "require-dev": {
@@ -1442,7 +1450,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2018-02-19T10:16:54+00:00"
+            "time": "2018-04-18T13:57:24+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -2335,7 +2343,7 @@
         },
         {
             "name": "symfony/config",
-            "version": "v2.8.37",
+            "version": "v2.8.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
@@ -2391,16 +2399,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.37",
+            "version": "v2.8.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "390fa4899dbcc47bd41935d87c4572ea4305d3ce"
+                "reference": "7f78892d900c72a40acd1fe793c856ef0c110f26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/390fa4899dbcc47bd41935d87c4572ea4305d3ce",
-                "reference": "390fa4899dbcc47bd41935d87c4572ea4305d3ce",
+                "url": "https://api.github.com/repos/symfony/console/zipball/7f78892d900c72a40acd1fe793c856ef0c110f26",
+                "reference": "7f78892d900c72a40acd1fe793c856ef0c110f26",
                 "shasum": ""
             },
             "require": {
@@ -2448,20 +2456,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-03-19T21:13:58+00:00"
+            "time": "2018-04-03T05:20:27+00:00"
         },
         {
             "name": "symfony/debug",
-            "version": "v2.8.37",
+            "version": "v2.8.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "ce92aa63881b80f79042962a3fbea217f5ac9b4e"
+                "reference": "4486d2be5e068b51fece4c8551c14e709f573c8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/ce92aa63881b80f79042962a3fbea217f5ac9b4e",
-                "reference": "ce92aa63881b80f79042962a3fbea217f5ac9b4e",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/4486d2be5e068b51fece4c8551c14e709f573c8d",
+                "reference": "4486d2be5e068b51fece4c8551c14e709f573c8d",
                 "shasum": ""
             },
             "require": {
@@ -2505,20 +2513,20 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2018-03-28T18:22:50+00:00"
+            "time": "2018-04-03T05:20:27+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.8.37",
+            "version": "v2.8.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "f5d2d7dcc33b89e20c2696ea9afcbddf6540081c"
+                "reference": "9b69aad7d4c086dc94ebade2d5eb9145da5dac8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/f5d2d7dcc33b89e20c2696ea9afcbddf6540081c",
-                "reference": "f5d2d7dcc33b89e20c2696ea9afcbddf6540081c",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/9b69aad7d4c086dc94ebade2d5eb9145da5dac8c",
+                "reference": "9b69aad7d4c086dc94ebade2d5eb9145da5dac8c",
                 "shasum": ""
             },
             "require": {
@@ -2565,11 +2573,11 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2018-02-11T16:53:59+00:00"
+            "time": "2018-04-06T07:35:03+00:00"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v2.8.37",
+            "version": "v2.8.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -2618,16 +2626,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v2.8.37",
+            "version": "v2.8.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "3cf7b50fa4cd6c2c4aa504b85196b12e386659d4"
+                "reference": "423746fc18ccf31f9abec43e4f078bb6e024b2d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/3cf7b50fa4cd6c2c4aa504b85196b12e386659d4",
-                "reference": "3cf7b50fa4cd6c2c4aa504b85196b12e386659d4",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/423746fc18ccf31f9abec43e4f078bb6e024b2d5",
+                "reference": "423746fc18ccf31f9abec43e4f078bb6e024b2d5",
                 "shasum": ""
             },
             "require": {
@@ -2663,7 +2671,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2018-03-28T18:22:50+00:00"
+            "time": "2018-04-04T13:38:31+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -2726,16 +2734,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v2.8.37",
+            "version": "v2.8.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "c2fc900ee54e1e44aa956eae8ba041a5347ba93c"
+                "reference": "ee2c91470ff262b1a00aec27875d38594aa87629"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/c2fc900ee54e1e44aa956eae8ba041a5347ba93c",
-                "reference": "c2fc900ee54e1e44aa956eae8ba041a5347ba93c",
+                "url": "https://api.github.com/repos/symfony/process/zipball/ee2c91470ff262b1a00aec27875d38594aa87629",
+                "reference": "ee2c91470ff262b1a00aec27875d38594aa87629",
                 "shasum": ""
             },
             "require": {
@@ -2771,11 +2779,11 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2018-03-19T21:11:56+00:00"
+            "time": "2018-04-03T05:20:27+00:00"
         },
         {
             "name": "symfony/stopwatch",
-            "version": "v2.8.37",
+            "version": "v2.8.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/stopwatch.git",
@@ -2824,7 +2832,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.8.37",
+            "version": "v2.8.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
@@ -2880,5 +2888,8 @@
     "platform": {
         "php": "^5.4 | ^7.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "5.4"
+    }
 }
