@@ -17,8 +17,10 @@ use Dhii\Iterator\CreateIterationCapableTrait;
 use Dhii\Iterator\CreateIteratorExceptionCapableTrait;
 use Dhii\Iterator\IterationAwareTrait;
 use Dhii\Iterator\IteratorInterface;
+use Dhii\Iterator\IteratorIteratorTrait;
 use Dhii\Iterator\IteratorTrait;
 use Dhii\Iterator\ResolveIteratorCapableTrait;
+use Dhii\Iterator\TrackingIteratorTrait;
 use Dhii\Util\Normalization\NormalizeIntCapableTrait;
 use Dhii\Util\Normalization\NormalizeStringCapableTrait;
 use Exception as RootException;
@@ -45,6 +47,18 @@ abstract class AbstractBaseMap extends AbstractBaseContainer implements
      * @since [*next-version*]
      */
     use IteratorTrait;
+
+    /* Functionality for iterators that use a tracker.
+     *
+     * @since [*next-version*]
+     */
+    use TrackingIteratorTrait;
+
+    /* Functionality for tracking iterators that use an inner iterator.
+     *
+     * @since [*next-version*]
+     */
+    use IteratorIteratorTrait;
 
     /* Awareness of an iteration.
      *
@@ -207,75 +221,9 @@ abstract class AbstractBaseMap extends AbstractBaseContainer implements
      *
      * @since [*next-version*]
      */
-    protected function _loop()
+    protected function _getTracker()
     {
-        $iterator = $this->_getIterator();
-
-        $iterator->next();
-
-        $key = $this->_calculateKey($iterator);
-        $val = $this->_calculateValue($iterator);
-
-        $iteration = $this->_createIteration($key, $val);
-
-        return $iteration;
-    }
-
-    /**
-     * Calculates a key based on a given iterator.
-     *
-     * @since [*next-version*]
-     *
-     * @param Iterator $iterator The iterator used to calculate the key.
-     *
-     * @return string|null The calculated key.
-     */
-    protected function _calculateKey(Iterator $iterator)
-    {
-        return $iterator->valid()
-            ? $iterator->key()
-            : null;
-    }
-
-    /**
-     * Calculates a value based on a given iterator.
-     *
-     * @since [*next-version*]
-     *
-     * @param Iterator $iterator The iterator used to calculate the value.
-     *
-     * @return mixed The calculated value.
-     */
-    protected function _calculateValue(Iterator $iterator)
-    {
-        return $iterator->valid()
-            ? $iterator->current()
-            : null;
-    }
-
-    /**
-     * {@inheritdoc}
-     *
-     * A different reset r
-     *
-     * @since [*next-version*]
-     */
-    protected function _reset()
-    {
-        $iterator = $this->_getIterator();
-        $iterator->rewind();
-
-        $key = $iterator->valid()
-            ? $iterator->key()
-            : null;
-
-        $val = $iterator->valid()
-            ? $iterator->current()
-            : null;
-
-        $iteration = $this->_createIteration($key, $val);
-
-        return $iteration;
+        return $this->_getIterator();
     }
 
     /**
