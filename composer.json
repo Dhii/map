@@ -3,6 +3,7 @@
     "description": "An iterable container implementation.",
     "type": "library",
     "license": "MIT",
+    "keywords": ["psr-11", "container", "iterable", "map"],
     "authors": [
         {
             "name": "Dhii Team",
