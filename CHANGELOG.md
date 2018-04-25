@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [[*next-version*]] - YYYY-MM-DD
+
+## [0.1-alpha5] - 2018-04-25
 ### Changed
 - Depending on newer version of `dhii/iterator-abstract`.
 - `AbstractBaseMap` now uses new traits.
