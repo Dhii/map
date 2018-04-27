@@ -59,7 +59,7 @@ class CountableMapFactory extends AbstractRecursiveMapFactory
      *
      * @since [*next-version*]
      */
-    protected function _getChildConfig($child)
+    protected function _getChildConfig($child, $config)
     {
         return [
             MapFactoryInterface::K_DATA => $child,
@@ -71,7 +71,7 @@ class CountableMapFactory extends AbstractRecursiveMapFactory
      *
      * @since [*next-version*]
      */
-    protected function _normalizeScalarChild($child)
+    protected function _normalizeScalarChild($child, $config)
     {
         return $child;
     }
@@ -101,7 +101,7 @@ class CountableMapFactory extends AbstractRecursiveMapFactory
      *
      * @since [*next-version*]
      */
-    protected function _getChildFactory($child)
+    protected function _getChildFactory($child, $config)
     {
         return $this;
     }
