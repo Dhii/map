@@ -182,7 +182,7 @@ class MakeCapableMapTraitTest extends TestCase
             ->will($this->returnArgument(0));
         $subject->expects($this->exactly(count($data)))
             ->method('_normalizeChild')
-            ->withConsecutive([$val1], [$val2], [$val3])
+            ->withConsecutive([$val1, $config], [$val2, $config], [$val3, $config])
             ->will($this->returnArgument(0));
         $subject->expects($this->exactly(1))
             ->method('_createProduct')
