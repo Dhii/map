@@ -66,7 +66,7 @@ trait MakeCapableMapTrait
      *
      * @since [*next-version*]
      *
-     * @param array|stdClass|ArrayAccess $config The data for the new product instance.
+     * @param array|stdClass|ArrayAccess $config The config for the new product.
      * @param array|stdClass|ArrayObject $data   The data for the new product instance.
      *
      * @throws InvalidArgumentException If the data is invalid.
