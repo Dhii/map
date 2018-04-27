@@ -26,7 +26,7 @@ trait MakeCapableMapTrait
      *
      * Map representations will be wrapped.
      *
-     * @param stdClass|array|ArrayAccess $config The data for the map.
+     * @param array|ArrayAccess|BaseContainerInterface|stdClass|null $config The data for the map.
      *
      * @throws RootException If unable to make a new map.
      *
@@ -66,7 +66,7 @@ trait MakeCapableMapTrait
      *
      * @since [*next-version*]
      *
-     * @param array|stdClass|ArrayAccess $config The config for the new product.
+     * @param array|ArrayAccess|BaseContainerInterface|stdClass|null $config The config for the new product.
      * @param array|stdClass|ArrayObject $data   The data for the new product instance.
      *
      * @throws InvalidArgumentException If the data is invalid.
@@ -82,7 +82,7 @@ trait MakeCapableMapTrait
      * @since [*next-version*]
      *
      * @param mixed                      $child  The child to normalize.
-     * @param array|stdClass|ArrayAccess $config The config of the product, the child of which to normalize.
+     * @param array|ArrayAccess|BaseContainerInterface|stdClass|null $config The config of the product, the child of which to normalize.
      *
      * @throws InvalidArgumentException If the child is not valid.
      *

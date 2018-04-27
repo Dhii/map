@@ -4,6 +4,7 @@ namespace Dhii\Collection;
 
 use ArrayAccess;
 use ArrayObject;
+use Psr\Container\ContainerInterface as BaseContainerInterface;
 use Dhii\Data\Container\ContainerGetCapableTrait;
 use Dhii\Data\Container\CreateContainerExceptionCapableTrait;
 use Dhii\Data\Container\CreateNotFoundExceptionCapableTrait;
@@ -81,7 +82,7 @@ class CountableMapFactory extends AbstractRecursiveMapFactory
      *
      * @since [*next-version*]
      *
-     * @param array|stdClass|ArrayAccess $config The data for the new product instance.
+     * @param array|ArrayAccess|BaseContainerInterface|stdClass|null $config The data for the new product instance.
      * @param array|stdClass|ArrayObject $data   The data for the new product instance.
      *
      * @throws InvalidArgumentException If the data or the config is invalid.
