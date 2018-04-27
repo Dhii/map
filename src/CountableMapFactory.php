@@ -83,7 +83,7 @@ class CountableMapFactory extends AbstractRecursiveMapFactory
      * @since [*next-version*]
      *
      * @param array|ArrayAccess|BaseContainerInterface|stdClass|null $config The data for the new product instance.
-     * @param array|stdClass|ArrayObject $data   The data for the new product instance.
+     * @param array|stdClass|ArrayObject                             $data   The data for the new product instance.
      *
      * @throws InvalidArgumentException If the data or the config is invalid.
      * @throws RuntimeException         If the product could not be created.

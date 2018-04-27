@@ -20,7 +20,7 @@ trait RecursiveFactoryTrait
      *
      * @since [*next-version*]
      *
-     * @param mixed                      $child  The child to normalize.
+     * @param mixed                                                  $child  The child to normalize.
      * @param array|ArrayAccess|BaseContainerInterface|stdClass|null $config The config of the product, the child of which to normalize.
      *
      * @throws InvalidArgumentException If the child is not valid.
@@ -39,7 +39,7 @@ trait RecursiveFactoryTrait
     /**
      * Normalizes a non-scalar child.
      *
-     * @param object|array|resource|null $child  The child to normalize
+     * @param object|array|resource|null                             $child  The child to normalize
      * @param array|ArrayAccess|BaseContainerInterface|stdClass|null $config The config of the product, the child of which to normalize.
      *
      * @throws InvalidArgumentException If the child is not valid.
@@ -56,7 +56,7 @@ trait RecursiveFactoryTrait
      *
      * @since [*next-version*]
      *
-     * @param object|array|null          $child  The child, for which to create a new instance.
+     * @param object|array|null                                      $child  The child, for which to create a new instance.
      * @param array|ArrayAccess|BaseContainerInterface|stdClass|null $config The config of the product, the child of which to create an instance for.
      *
      * @return mixed the new child.
@@ -74,7 +74,7 @@ trait RecursiveFactoryTrait
      *
      * @since [*next-version*]
      *
-     * @param bool|int|float|string      $child  The child to normalize.
+     * @param bool|int|float|string                                  $child  The child to normalize.
      * @param array|ArrayAccess|BaseContainerInterface|stdClass|null $config The config of the product, the child of which to normalize.
      *
      * @return mixed The normalized child.
@@ -86,7 +86,7 @@ trait RecursiveFactoryTrait
      *
      * @since [*next-version*]
      *
-     * @param mixed                      $child  The child for which to get the factory.
+     * @param mixed                                                  $child  The child for which to get the factory.
      * @param array|ArrayAccess|BaseContainerInterface|stdClass|null $config The config of the product, the child of which to get the factory for.
      *
      * @return MapFactoryInterface The child factory.
@@ -98,9 +98,9 @@ trait RecursiveFactoryTrait
      *
      * @since [*next-version*]
      *
-     * @param mixed                      $child  The child for which to get the config.
+     * @param mixed                                                  $child  The child for which to get the config.
      * @param array|ArrayAccess|BaseContainerInterface|stdClass|null $config The config of the product,
-     *                                           the child of which the config to get the config for.
+     *                                                                       the child of which the config to get the config for.
      *
      * @return array|stdClass|ArrayObject|BaseContainerInterface The configuration for a child factory.
      */
