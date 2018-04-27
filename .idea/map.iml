@@ -7,6 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/test/functional" isTestSource="true" packagePrefix="Dhii\Collection\FuncTest\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/codeclimate/php-test-reporter" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/args-list-validation" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/callback-abstract" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/collections-interface" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/container-helper-base" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/data-container-abstract" />
@@ -19,8 +21,12 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/data-path-aware-interface" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/exception" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/exception-interface" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/factory-base" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/factory-interface" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/i18n-helper-base" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/i18n-interface" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/invocable-base" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/invocable-interface" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/iterator-abstract" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/iterator-base" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/iterator-helper-base" />
@@ -28,6 +34,9 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/normalization-helper-base" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/php-cs-fixer-config" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/stringable-interface" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/validation-abstract" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/validation-base" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/dhii/validation-interface" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/friendsofphp/php-cs-fixer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/guzzle/guzzle" />

@@ -17,11 +17,14 @@
         "dhii/data-container-interface": "^0.1 | ^0.2",
         "dhii/data-container-base": "^0.1-alpha2",
         "dhii/container-helper-base": "^0.1-alpha5",
-        "dhii/collections-interface": "^0.2-alpha3",
+        "dhii/collections-interface": "^0.2-alpha5",
         "dhii/iterator-interface": "^0.1",
         "dhii/iterator-base": "^0.1-alpha2",
         "dhii/iterator-abstract": "^0.1-alpha2",
-        "dhii/data-object-abstract": "^0.1"
+        "dhii/data-object-abstract": "^0.1",
+        "dhii/factory-interface": "^0.1-alpha2",
+        "dhii/factory-base": "^0.1-alpha1",
+        "dhii/i18n-helper-base": "^0.1-alpha1"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8",
