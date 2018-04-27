@@ -50,7 +50,7 @@ trait MakeCapableMapTrait
 
         foreach ($data as $_key => $_value) {
             try {
-                $map->{$_key} = $this->_normalizeChild($_value);
+                $map->{$_key} = $this->_normalizeChild($_value, $config);
             } catch (InvalidArgumentException $e) {
                 throw $this->_createRuntimeException($this->__('Element "%1$s" is invalid', [$_key]), null, $e);
             }
@@ -82,12 +82,13 @@ trait MakeCapableMapTrait
      * @since [*next-version*]
      *
      * @param mixed $child The child to normalize.
+     * @param array|stdClass|ArrayAccess $config The config of the product, the child of which to normalize.
      *
      * @throws InvalidArgumentException If the child is not valid.
      *
      * @return mixed The normalized element.
      */
-    abstract protected function _normalizeChild($child);
+    abstract protected function _normalizeChild($child, $config = null);
 
     /**
      * Retrieves a value from a container or data set.

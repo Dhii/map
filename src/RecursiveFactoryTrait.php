@@ -2,6 +2,7 @@
 
 namespace Dhii\Collection;
 
+use ArrayAccess;
 use ArrayObject;
 use Dhii\Factory\FactoryInterface;
 use InvalidArgumentException;
@@ -21,12 +22,13 @@ trait RecursiveFactoryTrait
      * @since [*next-version*]
      *
      * @param mixed $child The child to normalize.
+     * @param array|stdClass|ArrayAccess $config The config of the product, the child of which to normalize.
      *
      * @throws InvalidArgumentException If the child is not valid.
      *
      * @return mixed The normalized element.
      */
-    protected function _normalizeChild($child)
+    protected function _normalizeChild($child, $config = null)
     {
         if (is_scalar($child)) {
             return $this->_normalizeScalarChild($child);
