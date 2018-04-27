@@ -81,7 +81,7 @@ trait MakeCapableMapTrait
      *
      * @since [*next-version*]
      *
-     * @param mixed $child The child to normalize.
+     * @param mixed                      $child  The child to normalize.
      * @param array|stdClass|ArrayAccess $config The config of the product, the child of which to normalize.
      *
      * @throws InvalidArgumentException If the child is not valid.
