@@ -4,7 +4,6 @@ namespace Dhii\Collection;
 
 use ArrayAccess;
 use ArrayObject;
-use Dhii\Factory\FactoryInterface;
 use InvalidArgumentException;
 use Psr\Container\ContainerInterface as BaseContainerInterface;
 use stdClass;
@@ -86,7 +85,7 @@ trait RecursiveFactoryTrait
      *
      * @param mixed $child The child for which to get the factory.
      *
-     * @return FactoryInterface The child factory.
+     * @return MapFactoryInterface The child factory.
      */
     abstract protected function _getChildFactory($child);
 
