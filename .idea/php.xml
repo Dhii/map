@@ -58,12 +58,22 @@
       <path value="$PROJECT_DIR$/vendor/dhii/iterator-helper-base" />
       <path value="$PROJECT_DIR$/vendor/dhii/container-helper-base" />
       <path value="$PROJECT_DIR$/vendor/dhii/iterator-base" />
+      <path value="$PROJECT_DIR$/vendor/dhii/exception-helper-base" />
+      <path value="$PROJECT_DIR$/vendor/dhii/factory-interface" />
+      <path value="$PROJECT_DIR$/vendor/dhii/factory-base" />
+      <path value="$PROJECT_DIR$/vendor/dhii/validation-abstract" />
+      <path value="$PROJECT_DIR$/vendor/dhii/args-list-validation" />
+      <path value="$PROJECT_DIR$/vendor/dhii/validation-base" />
+      <path value="$PROJECT_DIR$/vendor/dhii/callback-abstract" />
+      <path value="$PROJECT_DIR$/vendor/dhii/invocable-base" />
+      <path value="$PROJECT_DIR$/vendor/dhii/invocable-interface" />
+      <path value="$PROJECT_DIR$/vendor/dhii/validation-interface" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="5.4.0" />
   <component name="PhpUnit">
     <phpunit_settings>
-      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="F:/projects/dhii/map/vendor/autoload.php" />
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" />
     </phpunit_settings>
   </component>
 </project>
