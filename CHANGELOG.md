@@ -5,6 +5,19 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [[*next-version*]] - YYYY-MM-DD
+### Added
+- `CountableMapFactory`.
+- `AbstractRecursiveMapFactory`.
+- `MakeCapableMapTrait`.
+- `RecursiveFactoryTrait`.
+
+### Changed
+- Now depending on a newer version of `dhii/collections-interface` for `MapFactoryInterface`.
+- Now depending on `dhii/factory-base` for base factory-related implementations, e.g. exceptions and their factories.
+- Now depending on `dhii/data-object-abstract` for standards-compliand generic container helper methods.
+
+### Fixed
+- Added missing dependency on `dhii/i18n-helper-base`.
 
 ## [0.1-alpha5] - 2018-04-25
 ### Changed
