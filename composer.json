@@ -22,7 +22,6 @@
         "dhii/iterator-base": "^0.1-alpha2",
         "dhii/iterator-abstract": "^0.1-alpha2",
         "dhii/data-object-abstract": "^0.1",
-        "dhii/factory-interface": "^0.1-alpha2",
         "dhii/factory-base": "^0.1-alpha1",
         "dhii/i18n-helper-base": "^0.1-alpha1"
     },
