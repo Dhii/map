@@ -15,6 +15,11 @@ An iterable container implementation. Is at the same time a [PSR-11] container, 
 - [`CountableMap`] - An iterable container, the elements of which can be counted.
 - [`AbstractBaseMap`] - Common functionality for maps.
 - [`AbstractBaseCountableMap`] - Common functionality for countable maps.
+- [`AbstractRecursiveMapFactory`] - Common functionality for factories that create map hierarchies from hierarchies of
+iterables.
+- [`CountableMapFactory`] - A recursive factory that can create a hierarchy of `CountableMap` objects.
+- [`MakeCapableMapTrait`] - Functionality for standardized, normalized creation of maps.
+- [`RecursiveFactoryTrait`] - Functionality for standardized map factories that normalize iterable children into maps.
 
 
 [Dhii]:                                             https://github.com/Dhii/dhii
@@ -24,3 +29,7 @@ An iterable container implementation. Is at the same time a [PSR-11] container, 
 [`CountableMap`]:                                   src/CountableMap.php
 [`AbstractBaseMap`]:                                src/AbstractBaseMap.php
 [`AbstractBaseCountableMap`]:                       src/AbstractBaseCountableMap.php
+[`AbstractRecursiveMapFactory`]:                    src/AbstractRecursiveMapFactory.php
+[`CountableMapFactory`]:                            src/CountableMapFactory.php
+[`MakeCapableMapTrait`]:                            src/MakeCapableMapTrait.php
+[`RecursiveFactoryTrait`]:                          src/RecursiveFactoryTrait.php
