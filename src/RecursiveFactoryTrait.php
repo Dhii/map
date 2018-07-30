@@ -29,7 +29,7 @@ trait RecursiveFactoryTrait
      */
     protected function _normalizeChild($child, $config = null)
     {
-        if (is_scalar($child)) {
+        if (is_scalar($child) || is_null($child)) {
             return $this->_normalizeSimpleChild($child, $config);
         }
 
