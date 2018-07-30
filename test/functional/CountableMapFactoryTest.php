@@ -47,7 +47,9 @@ class CountableMapFactoryTest extends TestCase
         $mock = $builder->getMock();
 
         $mock->method('__')
-            ->will($this->returnArgument(0));
+            ->will($this->returnCallback(function ($string, $values) {
+                return vsprintf($string, $values);
+            }));
 
         return $mock;
     }
@@ -215,7 +217,7 @@ class CountableMapFactoryTest extends TestCase
     {
         $data = [
             uniqid('key') => [
-                uniqid('key') => uniqid('val'),
+                uniqid('key') => null,
                 uniqid('key') => uniqid('val'),
                 uniqid('key') => uniqid('val'),
             ],

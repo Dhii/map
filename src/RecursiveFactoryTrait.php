@@ -29,8 +29,8 @@ trait RecursiveFactoryTrait
      */
     protected function _normalizeChild($child, $config = null)
     {
-        if (is_scalar($child)) {
-            return $this->_normalizeScalarChild($child, $config);
+        if (is_scalar($child) || is_null($child)) {
+            return $this->_normalizeSimpleChild($child, $config);
         }
 
         return $this->_normalizeComplexChild($child, $config);
@@ -39,7 +39,7 @@ trait RecursiveFactoryTrait
     /**
      * Normalizes a non-scalar child.
      *
-     * @param object|array|resource|null                             $child  The child to normalize
+     * @param object|array|resource                                  $child  The child to normalize
      * @param array|ArrayAccess|BaseContainerInterface|stdClass|null $config The config of the product, the child of which to normalize.
      *
      * @throws InvalidArgumentException If the child is not valid.
@@ -74,12 +74,12 @@ trait RecursiveFactoryTrait
      *
      * @since [*next-version*]
      *
-     * @param bool|int|float|string                                  $child  The child to normalize.
+     * @param bool|int|float|string|null                             $child  The child to normalize.
      * @param array|ArrayAccess|BaseContainerInterface|stdClass|null $config The config of the product, the child of which to normalize.
      *
      * @return mixed The normalized child.
      */
-    abstract protected function _normalizeScalarChild($child, $config);
+    abstract protected function _normalizeSimpleChild($child, $config);
 
     /**
      * Retrieves the factory that is used to create children instances.

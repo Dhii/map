@@ -72,7 +72,7 @@ class CountableMapFactory extends AbstractRecursiveMapFactory
      *
      * @since [*next-version*]
      */
-    protected function _normalizeScalarChild($child, $config)
+    protected function _normalizeSimpleChild($child, $config)
     {
         return $child;
     }

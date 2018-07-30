@@ -3,6 +3,8 @@
 /test/coverage/
 /test/log/
 /build/
+/.idea/codeStyles/
+/.idea/inspectionProfiles/
 /.idea/dictionaries/
 /.idea/workspace.xml
 /.idea/tasks.xml
