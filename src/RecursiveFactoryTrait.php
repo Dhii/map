@@ -39,7 +39,7 @@ trait RecursiveFactoryTrait
     /**
      * Normalizes a non-scalar child.
      *
-     * @param object|array|resource|null                             $child  The child to normalize
+     * @param object|array|resource                                  $child  The child to normalize
      * @param array|ArrayAccess|BaseContainerInterface|stdClass|null $config The config of the product, the child of which to normalize.
      *
      * @throws InvalidArgumentException If the child is not valid.
@@ -74,7 +74,7 @@ trait RecursiveFactoryTrait
      *
      * @since [*next-version*]
      *
-     * @param bool|int|float|string                                  $child  The child to normalize.
+     * @param bool|int|float|string|null                             $child  The child to normalize.
      * @param array|ArrayAccess|BaseContainerInterface|stdClass|null $config The config of the product, the child of which to normalize.
      *
      * @return mixed The normalized child.
