@@ -68,6 +68,7 @@
       <path value="$PROJECT_DIR$/vendor/dhii/invocable-base" />
       <path value="$PROJECT_DIR$/vendor/dhii/invocable-interface" />
       <path value="$PROJECT_DIR$/vendor/dhii/validation-interface" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="5.4.0" />
