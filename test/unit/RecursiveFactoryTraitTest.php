@@ -205,15 +205,15 @@ class RecursiveFactoryTraitTest extends TestCase
      *
      * @since [*next-version*]
      */
-    public function testNormalizeChildScalar()
+    public function testNormalizeChildSimple()
     {
         $child = uniqid('child');
         $normalized = uniqid('normalized');
-        $subject = $this->createInstance(['_normalizeScalarChild']);
+        $subject = $this->createInstance(['_normalizeSimpleChild']);
         $_subject = $this->reflect($subject);
 
         $subject->expects($this->exactly(1))
-            ->method('_normalizeScalarChild')
+            ->method('_normalizeSimpleChild')
             ->with($child)
             ->will($this->returnValue($normalized));
 

@@ -30,7 +30,7 @@ trait RecursiveFactoryTrait
     protected function _normalizeChild($child, $config = null)
     {
         if (is_scalar($child)) {
-            return $this->_normalizeScalarChild($child, $config);
+            return $this->_normalizeSimpleChild($child, $config);
         }
 
         return $this->_normalizeComplexChild($child, $config);
@@ -79,7 +79,7 @@ trait RecursiveFactoryTrait
      *
      * @return mixed The normalized child.
      */
-    abstract protected function _normalizeScalarChild($child, $config);
+    abstract protected function _normalizeSimpleChild($child, $config);
 
     /**
      * Retrieves the factory that is used to create children instances.
