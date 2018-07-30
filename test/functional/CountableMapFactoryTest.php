@@ -217,7 +217,7 @@ class CountableMapFactoryTest extends TestCase
     {
         $data = [
             uniqid('key') => [
-                uniqid('key') => uniqid('val'),
+                uniqid('key') => null,
                 uniqid('key') => uniqid('val'),
                 uniqid('key') => uniqid('val'),
             ],
