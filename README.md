@@ -1,4 +1,4 @@
-# Dhii - Map
+# [DEPRECATED] Dhii - Map
 
 [![Build Status](https://travis-ci.org/Dhii/map.svg?branch=develop)](https://travis-ci.org/Dhii/map)
 [![Code Climate](https://codeclimate.com/github/Dhii/map/badges/gpa.svg)](https://codeclimate.com/github/Dhii/map)
